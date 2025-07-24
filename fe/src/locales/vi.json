@@ -1,0 +1,1353 @@
+{
+  "header": {
+    "brand": "BadmintonShop",
+    "navigation": {
+      "home": "Trang chủ",
+      "shop": "Cửa hàng",
+      "categories": "Danh mục",
+      "deals": "Khuyến mãi",
+      "about": "Giới thiệu",
+      "newArrivals": "Hàng mới",
+      "bestSellers": "Bán chạy",
+      "contact": "Liên hệ"
+    },
+    "actions": {
+      "search": "Tìm kiếm",
+      "searchPlaceholder": "Tìm kiếm sản phẩm...",
+      "userAccount": "Tài khoản người dùng",
+      "shoppingCart": "Giỏ hàng",
+      "openMenu": "Mở menu",
+      "closeMenu": "Đóng menu",
+      "toggleTheme": "Chuyển đổi chủ đề",
+      "changeLanguage": "Thay đổi ngôn ngữ"
+    },
+    "language": {
+      "vietnamese": "Tiếng Việt",
+      "english": "English",
+      "current": "vi"
+    },
+    "dropdown": {
+      "profile": "Hồ sơ",
+      "orders": "Đơn hàng",
+      "wishlist": "Danh sách yêu thích",
+      "adminPanel": "Bảng Điều Khiển Admin",
+      "logout": "Đăng xuất"
+    }
+  },
+  "homepage": {
+    "hero": {
+      "title": "Khám Phá Những Sản Phẩm Tuyệt Vời Cho Cuộc Sống Của Bạn",
+      "subtitle": "Mua sắm những xu hướng và đổi mới mới nhất với giá cả không thể đánh bại và chất lượng tuyệt vời.",
+      "shopNow": "Mua Ngay",
+      "browseCategories": "Duyệt Danh Mục",
+      "imageAlt": "Trung tâm mua sắm hiện đại với nhiều người",
+      "slides": {
+        "shopping": {
+          "title": "Thiết Bị Cầu Lông Chuyên Nghiệp",
+          "subtitle": "Từ vợt cao cấp đến giày chuyên dụng - Tất cả cho passion cầu lông của bạn",
+          "badge": "🏸 Cầu Lông Pro"
+        },
+        "fashion": {
+          "title": "Trang Phục Cầu Lông Cao Cấp",
+          "subtitle": "Bộ sưu tập áo quần thể thao chuyên dụng từ các thương hiệu hàng đầu",
+          "badge": "👕 Sportswear"
+        },
+        "badminton": {
+          "title": "Phụ Kiện & Giày Cầu Lông",
+          "subtitle": "Bao vợt, giày chuyên nghiệp và phụ kiện thiết yếu cho mọi tay vợt",
+          "badge": "👟 Accessories"
+        }
+      },
+      "buttons": {
+        "shopNow": "Mua sắm ngay",
+        "browseCategories": "Khám phá danh mục"
+      },
+      "features": {
+        "fastDelivery": {
+          "title": "Giao hàng nhanh",
+          "subtitle": "Trong 24h"
+        },
+        "highQuality": {
+          "title": "Chất lượng cao",
+          "subtitle": "Đảm bảo 100%"
+        },
+        "warranty": {
+          "title": "Bảo hành",
+          "subtitle": "12 tháng"
+        }
+      },
+      "stats": {
+        "products": "Sản phẩm",
+        "customers": "Khách hàng",
+        "satisfaction": "Hài lòng",
+        "support": "Hỗ trợ"
+      },
+      "promotions": {
+        "discount": "-50%",
+        "freeShip": "Free ship"
+      }
+    },
+    "featuredProducts": {
+      "title": "Sản Phẩm Nổi Bật",
+      "viewAll": "Xem Tất Cả"
+    },
+    "categories": {
+      "title": "Mua Sắm Theo Danh Mục",
+      "productsCount": "Sản Phẩm"
+    },
+    "promotion": {
+      "badge": "Ưu Đãi Có Thời Hạn",
+      "title": "Giảm 20% Cho Tất Cả Hàng Mới Về",
+      "description": "Khám phá bộ sưu tập mới nhất của chúng tôi và tận hưởng giảm giá độc quyền trên các mặt hàng được chọn. Sử dụng mã khuyến mãi",
+      "promoCode": "NEWSEASON",
+      "atCheckout": "khi thanh toán.",
+      "shopNewArrivals": "Mua Hàng Mới Về",
+      "imageAlt": "Ưu đãi đặc biệt - Phụ nữ với túi mua sắm"
+    },
+    "newsletter": {
+      "title": "Đăng Ký Nhận Bản Tin",
+      "description": "Cập nhật những sản phẩm mới nhất, ưu đãi độc quyền và mẹo mua sắm của chúng tôi.",
+      "emailPlaceholder": "Địa chỉ email của bạn",
+      "subscribe": "Đăng Ký",
+      "backgroundAlt": "Nền mẫu mua sắm"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Chào Mừng Trở Lại",
+      "subtitle": "Đăng nhập vào tài khoản của bạn để tiếp tục",
+      "emailLabel": "Địa Chỉ Email",
+      "emailPlaceholder": "your.email@example.com",
+      "passwordLabel": "Mật Khẩu",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "Quên mật khẩu?",
+      "signInButton": "Đăng Nhập",
+      "noAccount": "Chưa có tài khoản?",
+      "signUpLink": "Đăng ký",
+      "validation": {
+        "emailRequired": "Email là bắt buộc",
+        "emailInvalid": "Email không hợp lệ",
+        "passwordRequired": "Mật khẩu là bắt buộc",
+        "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự"
+      },
+      "errors": {
+        "invalidCredentials": "Email hoặc mật khẩu không đúng"
+      }
+    },
+    "register": {
+      "title": "Tạo Tài Khoản",
+      "subtitle": "Tham gia với chúng tôi để bắt đầu mua sắm",
+      "nameLabel": "Họ và Tên",
+      "namePlaceholder": "Nguyễn Văn A",
+      "emailLabel": "Địa Chỉ Email",
+      "emailPlaceholder": "your.email@example.com",
+      "passwordLabel": "Mật Khẩu",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Xác Nhận Mật Khẩu",
+      "confirmPasswordPlaceholder": "••••••••",
+      "agreeToTerms": "Tôi đồng ý với",
+      "termsOfService": "Điều Khoản Dịch Vụ",
+      "and": "và",
+      "privacyPolicy": "Chính Sách Bảo Mật",
+      "createAccountButton": "Tạo Tài Khoản",
+      "haveAccount": "Đã có tài khoản?",
+      "signInLink": "Đăng nhập",
+      "validation": {
+        "nameRequired": "Tên là bắt buộc",
+        "emailRequired": "Email là bắt buộc",
+        "emailInvalid": "Email không hợp lệ",
+        "passwordRequired": "Mật khẩu là bắt buộc",
+        "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+        "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu",
+        "passwordsNotMatch": "Mật khẩu không khớp"
+      },
+      "errors": {
+        "registrationFailed": "Đăng ký thất bại. Vui lòng thử lại."
+      }
+    },
+    "welcome": {
+      "title": "Chào mừng trở lại!",
+      "message": "Xin chào {{name}}, bạn đã đăng nhập thành công."
+    },
+    "forgotPassword": {
+      "title": "Quên Mật Khẩu",
+      "subtitle": "Nhập email của bạn và chúng tôi sẽ gửi cho bạn liên kết đặt lại mật khẩu",
+      "emailLabel": "Địa Chỉ Email",
+      "emailPlaceholder": "your.email@example.com",
+      "sendResetLinkButton": "Gửi Liên Kết Đặt Lại",
+      "backToLogin": "Quay lại đăng nhập",
+      "successMessage": "Liên kết đặt lại mật khẩu đã được gửi đến email của bạn",
+      "validation": {
+        "emailRequired": "Email là bắt buộc",
+        "emailInvalid": "Email không hợp lệ"
+      },
+      "errors": {
+        "emailNotFound": "Không tìm thấy tài khoản với email này",
+        "sendFailed": "Gửi email thất bại. Vui lòng thử lại."
+      }
+    },
+    "resetPassword": {
+      "title": "Đặt Lại Mật Khẩu",
+      "subtitle": "Nhập mật khẩu mới của bạn",
+      "passwordLabel": "Mật Khẩu Mới",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Xác Nhận Mật Khẩu Mới",
+      "confirmPasswordPlaceholder": "••••••••",
+      "resetPasswordButton": "Đặt Lại Mật Khẩu",
+      "backToLogin": "Quay lại đăng nhập",
+      "successMessage": "Mật khẩu đã được đặt lại thành công",
+      "validation": {
+        "passwordRequired": "Mật khẩu là bắt buộc",
+        "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+        "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu",
+        "passwordsNotMatch": "Mật khẩu không khớp"
+      },
+      "errors": {
+        "invalidToken": "Liên kết đặt lại không hợp lệ hoặc đã hết hạn",
+        "resetFailed": "Đặt lại mật khẩu thất bại. Vui lòng thử lại."
+      }
+    }
+  },
+  "chat": {
+    "title": "Trợ Lý Mua Sắm AI",
+    "greeting": "Xin chào! Tôi là trợ lý mua sắm AI. Tôi có thể giúp gì cho bạn hôm nay?",
+    "greetingWithName": "Xin chào {{name}}! Tôi là trợ lý mua sắm AI. Tôi có thể giúp gì cho bạn hôm nay?",
+    "typing": "Đang nhập...",
+    "placeholder": "Bạn cần hỗ trợ gì không?",
+    "typeSomething": "Nhập câu hỏi của bạn...",
+    "send": "Gửi",
+    "openChat": "Mở chat",
+    "closeChat": "Đóng chat",
+    "close": "Đóng",
+    "expand": "Phóng to",
+    "minimize": "Thu nhỏ",
+    "suggestions": {
+      "findProducts": "Tìm sản phẩm mới",
+      "viewPromotions": "Xem khuyến mãi",
+      "howToOrder": "Cách đặt hàng",
+      "returnPolicy": "Chính sách đổi trả",
+      "tryAgain": "Thử lại",
+      "contactSupport": "Liên hệ hỗ trợ"
+    },
+    "responses": {
+      "productSearch": "Tôi đã tìm thấy một số sản phẩm phù hợp với \"{{query}}\". Bạn có thể quan tâm đến các sản phẩm sau:\n\n1. Áo thun unisex cotton - 299.000đ\n2. Quần jean slim fit - 599.000đ\n3. Giày sneaker thể thao - 799.000đ\n\nBạn muốn xem chi tiết sản phẩm nào?",
+      "orderHelp": "Để đặt hàng trên website của chúng tôi, bạn có thể làm theo các bước sau:\n\n1. Chọn sản phẩm bạn muốn mua\n2. Thêm vào giỏ hàng\n3. Tiến hành thanh toán\n4. Điền thông tin giao hàng\n5. Chọn phương thức thanh toán\n6. Xác nhận đơn hàng\n\nBạn cần hỗ trợ thêm về bước nào?",
+      "returnPolicy": "Chính sách đổi trả của chúng tôi:\n\n- Thời gian đổi trả: trong vòng 7 ngày kể từ khi nhận hàng\n- Sản phẩm phải còn nguyên tem, nhãn và chưa qua sử dụng\n- Có hóa đơn mua hàng\n- Phí vận chuyển đổi trả do khách hàng chi trả\n\nBạn cần thêm thông tin gì về chính sách đổi trả không?",
+      "general": "Cảm ơn bạn đã liên hệ với chúng tôi. Tôi là trợ lý mua sắm AI, tôi có thể giúp bạn:\n\n- Tìm kiếm sản phẩm\n- Hướng dẫn đặt hàng\n- Thông tin về chính sách đổi trả\n- Trả lời các câu hỏi thường gặp\n\nBạn cần hỗ trợ gì ạ?"
+    },
+    "errors": {
+      "general": "Xin lỗi, tôi gặp sự cố khi xử lý yêu cầu của bạn. Vui lòng thử lại sau.",
+      "timeout": "Yêu cầu mất quá nhiều thời gian. Đang sử dụng phản hồi mẫu.",
+      "notFound": "Không thể kết nối đến dịch vụ AI. Đang sử dụng phản hồi mẫu.",
+      "tooManyRequests": "Quá nhiều yêu cầu. Vui lòng thử lại sau ít phút.",
+      "serverError": "Dịch vụ AI tạm thời không khả dụng. Vui lòng thử lại sau."
+    }
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "success": "Thành công",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "save": "Lưu",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa",
+    "add": "Thêm",
+    "view": "Xem",
+    "close": "Đóng",
+    "clear": "Xóa",
+    "recentSearches": "Tìm kiếm gần đây",
+    "noResults": "Không tìm thấy kết quả",
+    "viewAllResults": "Xem tất cả kết quả",
+    "noRecentSearches": "Không có tìm kiếm gần đây",
+    "errorOccurred": "Đã xảy ra lỗi"
+  },
+  "unauthorized": {
+    "title": "Truy Cập Bị Từ Chối",
+    "message": "Bạn không có quyền truy cập vào trang này. Vui lòng đăng nhập với tài khoản phù hợp hoặc liên hệ với quản trị viên.",
+    "goHome": "Về Trang Chủ",
+    "login": "Đăng Nhập"
+  },
+
+  "cart": {
+    "title": "Giỏ Hàng Của Bạn",
+    "emptyCart": {
+      "title": "Giỏ hàng của bạn đang trống",
+      "message": "Có vẻ như bạn chưa thêm sản phẩm nào vào giỏ hàng.",
+      "startShopping": "Bắt Đầu Mua Sắm"
+    },
+    "cartItems": "Sản Phẩm Trong Giỏ",
+    "clearCart": "Xóa giỏ hàng",
+    "clearCartConfirm": "Bạn có chắc chắn muốn xóa tất cả sản phẩm trong giỏ hàng?",
+    "orderSummary": "Tóm Tắt Đơn Hàng",
+    "subtotal": "Tạm tính",
+    "shipping": "Phí vận chuyển",
+    "free": "Miễn phí",
+    "tax": "Thuế",
+    "total": "Tổng cộng",
+    "proceedToCheckout": "Tiến Hành Thanh Toán",
+    "continueShopping": "Tiếp Tục Mua Sắm",
+    "syncedWithAccount": "Giỏ hàng đã đồng bộ với tài khoản",
+    "savedOnServer": "Giỏ hàng đã được lưu trên server",
+    "savedLocally": "Giỏ hàng đang được lưu trên thiết bị của bạn",
+    "benefits": {
+      "freeShipping": "Miễn phí vận chuyển cho đơn hàng trên 1.000.000đ",
+      "secureCheckout": "Thanh toán an toàn",
+      "returnPolicy": "Chính sách đổi trả trong 30 ngày"
+    },
+    "notifications": {
+      "cleared": "Đã xóa tất cả sản phẩm trong giỏ hàng",
+      "serverError": "Không thể xóa giỏ hàng trên server. Đã xóa giỏ hàng local.",
+      "loadError": "Không thể tải giỏ hàng từ server. Đang sử dụng dữ liệu local."
+    }
+  },
+
+  "checkout": {
+    "title": "Thanh Toán",
+    "emptyCart": {
+      "title": "Giỏ hàng của bạn đang trống",
+      "message": "Thêm một số sản phẩm vào giỏ hàng trước khi tiến hành thanh toán.",
+      "continueShopping": "Tiếp Tục Mua Sắm",
+      "redirectMessage": "Bạn đã được chuyển hướng đến trang mua sắm vì giỏ hàng trống."
+    },
+    "shippingInfo": {
+      "title": "Thông Tin Giao Hàng",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Địa Chỉ Email",
+      "phone": "Số Điện Thoại",
+      "address": "Địa Chỉ",
+      "city": "Thành Phố",
+      "state": "Tỉnh/Thành",
+      "zipCode": "Mã Bưu Điện",
+      "country": "Quốc Gia"
+    },
+    "countries": {
+      "US": "Hoa Kỳ",
+      "CA": "Canada",
+      "UK": "Vương Quốc Anh",
+      "AU": "Úc",
+      "DE": "Đức",
+      "FR": "Pháp",
+      "VN": "Việt Nam"
+    },
+    "shippingMethod": {
+      "title": "Phương Thức Giao Hàng",
+      "standard": "Giao hàng tiêu chuẩn (3-5 ngày làm việc)",
+      "express": "Giao hàng nhanh (1-2 ngày làm việc)",
+      "free": "Giao hàng miễn phí (5-7 ngày làm việc)",
+      "freeLabel": "Miễn phí"
+    },
+    "paymentMethod": {
+      "title": "Phương Thức Thanh Toán",
+      "selectLabel": "Chọn Phương Thức Thanh Toán",
+      "creditCard": "Thẻ Tín Dụng",
+      "paypal": "PayPal",
+      "bankTransfer": "Chuyển Khoản Ngân Hàng"
+    },
+    "creditCard": {
+      "cardNumber": "Số Thẻ",
+      "cardNumberPlaceholder": "1234 5678 9012 3456",
+      "nameOnCard": "Tên Trên Thẻ",
+      "expiryDate": "Ngày Hết Hạn",
+      "expiryPlaceholder": "MM/YY",
+      "cvc": "CVC",
+      "cvcPlaceholder": "123"
+    },
+    "paypal": {
+      "redirectMessage": "Bạn sẽ được chuyển hướng đến PayPal để hoàn tất thanh toán.",
+      "createOrderFirst": "Vui lòng tạo đơn hàng trước khi thanh toán qua PayPal.",
+      "completePayment": "Hoàn tất thanh toán với PayPal",
+      "loading": "Đang tải PayPal...",
+      "loadError": "Không thể tải PayPal. Vui lòng thử lại sau.",
+      "paymentError": "Có lỗi xảy ra khi xử lý thanh toán PayPal. Vui lòng thử lại.",
+      "adBlockerDetected": "Có vẻ như trình chặn quảng cáo (Ad Blocker) đang chặn PayPal.",
+      "disableAdBlocker": "Vui lòng tắt trình chặn quảng cáo cho trang web này.",
+      "allowPayPalDomain": "Hoặc cho phép domain 'paypal.com' trong cài đặt trình chặn quảng cáo.",
+      "refreshPage": "Sau đó làm mới trang và thử lại.",
+      "tryAgain": "Thử lại",
+      "alternativeMethod": "Hoặc sử dụng phương thức thay thế:",
+      "payWithPayPal": "Thanh toán với PayPal",
+      "returnAfterPayment": "Sau khi thanh toán xong, vui lòng quay lại trang này để hoàn tất đơn hàng."
+    },
+    "bankTransfer": {
+      "title": "Chuyển Khoản Ngân Hàng",
+      "instructions": "Vui lòng sử dụng thông tin sau để thực hiện chuyển khoản ngân hàng:",
+      "scanQRCode": "Quét mã QR để thanh toán:",
+      "qrInstructions": "Sử dụng ứng dụng ngân hàng để quét mã QR",
+      "bankDetails": "Thông tin chuyển khoản:",
+      "bankName": "Ngân hàng",
+      "accountName": "Tên tài khoản",
+      "accountNumber": "Số tài khoản",
+      "amount": "Số tiền",
+      "reference": "Nội dung chuyển khoản",
+      "noteReference": "⚠️ Vui lòng nhập chính xác nội dung chuyển khoản để đơn hàng được xử lý nhanh chóng",
+      "afterPayment": "Sau khi chuyển khoản:",
+      "step1": "Giữ lại biên lai chuyển khoản",
+      "step2": "Đơn hàng sẽ được xử lý trong vòng 1-2 giờ",
+      "step3": "Bạn sẽ nhận được email xác nhận khi đơn hàng được duyệt",
+      "routingNumber": "Số Định Tuyến",
+      "referenceNote": "Số đơn hàng của bạn sẽ được cung cấp sau khi thanh toán",
+      "exampleBank": "Ngân Hàng Ví Dụ",
+      "exampleStoreName": "Tên Cửa Hàng Của Bạn"
+    },
+    "orderSummary": {
+      "title": "Tóm Tắt Đơn Hàng",
+      "subtotal": "Tạm tính",
+      "shipping": "Phí vận chuyển",
+      "tax": "Thuế (7%)",
+      "total": "Tổng cộng",
+      "freeShipping": "Miễn phí"
+    },
+    "placeOrder": "Đặt Hàng",
+    "placeOrderWithTotal": "Đặt hàng - {{total}}",
+    "createOrder": "Tạo đơn hàng",
+    "securityNotice": {
+      "title": "Thanh toán an toàn",
+      "message": "Thông tin thanh toán của bạn được xử lý một cách an toàn. Chúng tôi không lưu trữ thông tin thẻ tín dụng."
+    },
+    "validation": {
+      "required": "Trường này là bắt buộc",
+      "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+      "phoneInvalid": "Vui lòng nhập số điện thoại 10 chữ số hợp lệ",
+      "zipCodeInvalid": "Vui lòng nhập mã bưu điện hợp lệ",
+      "cardNumberRequired": "Số thẻ là bắt buộc",
+      "cardNumberInvalid": "Vui lòng nhập số thẻ 16 chữ số hợp lệ",
+      "cardNameRequired": "Tên trên thẻ là bắt buộc",
+      "cardExpiryRequired": "Ngày hết hạn là bắt buộc",
+      "cardExpiryInvalid": "Vui lòng sử dụng định dạng MM/YY",
+      "cardCvcRequired": "CVC là bắt buộc",
+      "cardCvcInvalid": "Vui lòng nhập CVC hợp lệ"
+    },
+    "success": {
+      "message": "Đơn hàng của bạn đã được đặt thành công!"
+    },
+    "orderNotes": {
+      "title": "Ghi chú đơn hàng (Tùy chọn)",
+      "placeholder": "Thêm hướng dẫn đặc biệt cho đơn hàng của bạn..."
+    },
+    "continueToPayment": "Tiếp tục thanh toán"
+  },
+  "orders": {
+    "title": "Đơn Hàng Của Tôi",
+    "loginRequired": "Yêu Cầu Đăng Nhập",
+    "loginMessage": "Vui lòng đăng nhập để xem đơn hàng của bạn.",
+    "empty": {
+      "title": "Chưa Có Đơn Hàng Nào",
+      "message": "Bạn chưa đặt đơn hàng nào. Hãy bắt đầu mua sắm để xem đơn hàng tại đây.",
+      "startShopping": "Bắt Đầu Mua Sắm"
+    },
+    "error": {
+      "title": "Lỗi Tải Đơn Hàng",
+      "message": "Có lỗi xảy ra khi tải đơn hàng của bạn"
+    },
+    "orderNumber": "Đơn hàng #{{number}}",
+    "placedOn": "Đặt hàng vào {{date}}",
+    "status": {
+      "pending": "Chờ xử lý",
+      "processing": "Đang xử lý",
+      "shipped": "Đã gửi hàng",
+      "delivered": "Đã giao hàng",
+      "cancelled": "Đã hủy"
+    },
+    "paymentStatus": {
+      "pending": "Chờ thanh toán",
+      "paid": "Đã thanh toán",
+      "failed": "Thanh toán thất bại",
+      "refunded": "Đã hoàn tiền"
+    },
+    "viewDetails": "Xem Chi Tiết",
+    "hideDetails": "Ẩn Chi Tiết",
+    "writeReview": "Viết Đánh Giá",
+    "items": "{{count}} sản phẩm",
+    "items_one": "{{count}} sản phẩm",
+    "items_other": "{{count}} sản phẩm",
+    "tracking": "Mã vận đơn",
+    "track": "Theo dõi",
+    "estimatedDelivery": "Dự kiến giao",
+    "orderItems": "Sản Phẩm Trong Đơn Hàng",
+    "orderSummary": "Tóm Tắt Đơn Hàng",
+    "quantity": "SL",
+    "price": "Giá",
+    "subtotal": "Tạm tính",
+    "shipping": "Phí vận chuyển",
+    "tax": "Thuế",
+    "discount": "Giảm giá",
+    "total": "Tổng cộng",
+    "shippingAddress": "Địa Chỉ Giao Hàng",
+    "phone": "Điện thoại",
+    "returnItems": "Trả Hàng",
+    "downloadInvoice": "Tải Hóa Đơn",
+    "cancelOrder": "Hủy",
+    "cancelling": "Đang hủy...",
+    "cancelConfirm": "Bạn có chắc chắn muốn hủy đơn hàng này không?",
+    "repayOrder": "Thanh toán lại",
+    "repaying": "Đang xử lý...",
+    "repayConfirm": "Bạn muốn thanh toán lại đơn hàng này?",
+    "noItemsFound": "Không tìm thấy sản phẩm",
+    "unknownProduct": "Sản phẩm không xác định",
+    "ordersTotal": "đơn hàng tổng cộng",
+    "previous": "Trước",
+    "next": "Tiếp",
+    "tryAgain": "Thử Lại",
+    "details": {
+      "orderItems": "Sản phẩm trong đơn hàng",
+      "shippingAddress": "Địa chỉ giao hàng",
+      "orderSummary": "Tổng kết đơn hàng",
+      "subtotal": "Tạm tính",
+      "shipping": "Phí vận chuyển",
+      "tax": "Thuế",
+      "discount": "Giảm giá",
+      "total": "Tổng cộng",
+      "quantity": "SL",
+      "price": "Giá",
+      "noItemsFound": "Không tìm thấy sản phẩm",
+      "tracking": "Mã vận đơn",
+      "estimatedDelivery": "Dự kiến giao hàng",
+      "phone": "Điện thoại"
+    }
+  },
+  "payment": {
+    "initializingPayment": "Đang khởi tạo thanh toán...",
+    "paymentDetails": "Chi Tiết Thanh Toán",
+    "billingAddress": "Địa Chỉ Thanh Toán",
+    "processing": "Đang xử lý...",
+    "payNow": "Thanh toán {{amount}}",
+    "securePayment": "Thanh toán an toàn",
+    "securityNotice": "Thông tin thanh toán của bạn được mã hóa và bảo mật.",
+    "errors": {
+      "initializationFailed": "Không thể khởi tạo thanh toán. Vui lòng thử lại.",
+      "paymentFailed": "Thanh toán thất bại. Vui lòng thử lại.",
+      "confirmationFailed": "Xác nhận thanh toán thất bại. Vui lòng liên hệ hỗ trợ."
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Bảng Điều Khiển Admin",
+      "lastUpdated": "Cập nhật lần cuối",
+      "stats": {
+        "totalRevenue": "Tổng Doanh Thu",
+        "totalOrders": "Tổng Đơn Hàng",
+        "totalUsers": "Tổng Người Dùng",
+        "totalProducts": "Tổng Sản Phẩm",
+        "activeProducts": "Sản phẩm đang hoạt động",
+        "fromLastMonth": "so với tháng trước"
+      },
+      "alerts": {
+        "pendingOrders": "Bạn có {{count}} đơn hàng chờ xử lý cần chú ý",
+        "viewOrders": "Xem Đơn Hàng"
+      },
+      "sections": {
+        "recentOrders": "Đơn Hàng Gần Đây",
+        "topProducts": "Sản Phẩm Bán Chạy",
+        "viewAll": "Xem Tất Cả"
+      },
+      "table": {
+        "order": "Đơn Hàng",
+        "customer": "Khách Hàng",
+        "date": "Ngày",
+        "total": "Tổng Cộng",
+        "status": "Trạng Thái",
+        "sold": "đã bán",
+        "noRecentOrders": "Không có đơn hàng gần đây",
+        "noProductData": "Không có dữ liệu sản phẩm"
+      },
+      "orderStatus": {
+        "pending": "Chờ xử lý",
+        "processing": "Đang xử lý",
+        "shipped": "Đã gửi",
+        "delivered": "Đã giao",
+        "cancelled": "Đã hủy"
+      },
+      "errors": {
+        "loadingDashboard": "Lỗi Tải Bảng Điều Khiển",
+        "failedToLoad": "Không thể tải dữ liệu bảng điều khiển. Vui lòng thử lại."
+      }
+    },
+    "orders": {
+      "title": "Quản Lý Đơn Hàng",
+      "subtitle": "Theo dõi và cập nhật tất cả đơn hàng của khách hàng",
+      "searchPlaceholder": "Tìm kiếm theo mã đơn hàng, tên khách hàng hoặc email...",
+      "filterByStatus": "Lọc theo trạng thái",
+      "allStatus": "Tất cả trạng thái",
+      "noOrdersFound": "Không tìm thấy đơn hàng nào",
+      "actions": {
+        "view": "Xem",
+        "edit": "Sửa",
+        "update": "Cập nhật",
+        "delete": "Xóa"
+      },
+      "table": {
+        "orderNumber": "Đơn Hàng",
+        "customer": "Khách Hàng",
+        "date": "Ngày Đặt",
+        "items": "Sản Phẩm",
+        "total": "Tổng Tiền",
+        "status": "Trạng Thái",
+        "payment": "Thanh Toán",
+        "actions": "Thao Tác"
+      },
+      "status": {
+        "pending": "Chờ xử lý",
+        "processing": "Đang xử lý",
+        "shipped": "Đã gửi hàng",
+        "delivered": "Đã giao hàng",
+        "cancelled": "Đã hủy"
+      },
+      "paymentStatus": {
+        "pending": "Chờ thanh toán",
+        "paid": "Đã thanh toán",
+        "failed": "Thanh toán thất bại",
+        "refunded": "Đã hoàn tiền"
+      },
+      "itemsCount": "{{count}} sản phẩm",
+      "itemsCount_one": "{{count}} sản phẩm",
+      "itemsCount_other": "{{count}} sản phẩm",
+      "pagination": {
+        "showing": "Hiển thị",
+        "to": "đến",
+        "of": "trên tổng số",
+        "results": "kết quả",
+        "previous": "Trước",
+        "next": "Tiếp"
+      },
+      "details": {
+        "title": "Chi Tiết Đơn Hàng",
+        "orderNumber": "Mã Đơn Hàng",
+        "orderDate": "Ngày Đặt",
+        "orderStatus": "Trạng Thái Đơn Hàng",
+        "paymentStatus": "Trạng Thái Thanh Toán",
+        "customer": {
+          "title": "Thông Tin Khách Hàng",
+          "name": "Tên",
+          "email": "Email",
+          "phone": "Điện thoại"
+        },
+        "shipping": {
+          "title": "Địa Chỉ Giao Hàng",
+          "fullName": "Họ và Tên",
+          "address": "Địa chỉ",
+          "phone": "Điện thoại"
+        },
+        "items": {
+          "title": "Sản Phẩm Trong Đơn Hàng",
+          "quantity": "Số lượng",
+          "price": "Đơn giá"
+        },
+        "summary": {
+          "title": "Tóm Tắt Đơn Hàng",
+          "subtotal": "Tạm tính",
+          "tax": "Thuế",
+          "shipping": "Phí vận chuyển",
+          "discount": "Giảm giá",
+          "total": "Tổng cộng"
+        }
+      },
+      "updateStatus": {
+        "title": "Cập Nhật Trạng Thái Đơn Hàng",
+        "currentStatus": "Trạng thái hiện tại",
+        "newStatus": "Trạng thái mới",
+        "selectNewStatus": "Chọn trạng thái mới",
+        "note": "Ghi chú (Tùy chọn)",
+        "notePlaceholder": "Thêm ghi chú về việc thay đổi trạng thái này...",
+        "cancel": "Hủy",
+        "update": "Cập nhật",
+        "updating": "Đang cập nhật..."
+      },
+      "messages": {
+        "updateSuccess": "Cập nhật trạng thái đơn hàng thành công",
+        "updateError": "Có lỗi xảy ra khi cập nhật trạng thái",
+        "loadError": "Lỗi khi tải danh sách đơn hàng. Vui lòng thử lại.",
+        "retry": "Thử lại"
+      }
+    }
+  },
+  "product": {
+    "viewDetails": "Xem Chi Tiết",
+    "addToCart": "Thêm Vào Giỏ",
+    "buyNow": "Mua Ngay",
+    "outOfStock": "Hết Hàng",
+    "inStock": "Còn Hàng",
+    "price": "Giá",
+    "originalPrice": "Giá Gốc",
+    "discount": "Giảm Giá",
+    "rating": "Đánh Giá",
+    "reviews": "Nhận Xét",
+    "description": "Mô Tả",
+    "specifications": "Thông Số Kỹ Thuật",
+    "addedToCart": "Đã thêm vào giỏ hàng",
+    "quantity": "Số Lượng",
+    "selectVariant": "Chọn Phiên Bản",
+    "relatedProducts": "Sản Phẩm Liên Quan"
+  },
+  "footer": {
+    "company": {
+      "name": "BadmintonShop",
+      "description": "Điểm đến một cửa cho các sản phẩm chất lượng với giá cả phải chăng. Chúng tôi cam kết mang đến trải nghiệm mua sắm đặc biệt.",
+      "socialMedia": {
+        "facebook": "Facebook",
+        "twitter": "Twitter", 
+        "instagram": "Instagram",
+        "youtube": "YouTube"
+      }
+    },
+    "quickLinks": {
+      "title": "Liên Kết Nhanh",
+      "home": "Trang Chủ",
+      "shop": "Cửa Hàng",
+      "categories": "Danh Mục",
+      "deals": "Khuyến Mãi",
+      "newArrivals": "Hàng Mới",
+      "bestSellers": "Bán Chạy"
+    },
+    "customerService": {
+      "title": "Dịch Vụ Khách Hàng",
+      "contactUs": "Liên Hệ Chúng Tôi",
+      "faqs": "Câu Hỏi Thường Gặp",
+      "shippingReturns": "Giao Hàng & Trả Hàng",
+      "orderTracking": "Theo Dõi Đơn Hàng",
+      "privacyPolicy": "Chính Sách Bảo Mật",
+      "termsConditions": "Điều Khoản & Điều Kiện"
+    },
+    "contact": {
+      "title": "Liên Hệ Chúng Tôi",
+      "address": "123 Đường Mua Sắm, Thành phố Thương mại, 10001",
+      "email": "support@shopmini.com",
+      "phone": "+84 (028) 123-4567",
+      "hours": {
+        "weekdays": "Thứ 2 - Thứ 6: 9AM - 6PM",
+        "weekends": "Thứ 7 - CN: 10AM - 4PM"
+      }
+    },
+    "payment": {
+      "visa": "Visa",
+      "mastercard": "Mastercard", 
+      "paypal": "PayPal",
+      "applePay": "Apple Pay",
+      "momo": "MoMo",
+      "zaloPay": "ZaloPay"
+    },
+    "copyright": "© {{year}} BadmintonShop. Tất cả các quyền được bảo lưu."
+  },
+  "shop": {
+    "pageTitle": "Cửa Hàng Sản Phẩm",
+    "pageDescription": "Khám phá bộ sưu tập sản phẩm của chúng tôi",
+    "productsCount": "Hiển thị {{showing}} trong tổng số {{total}} sản phẩm",
+    "filters": {
+      "title": "Bộ lọc sản phẩm",
+      "close": "Đóng bộ lọc",
+      "clear": "Xóa bộ lọc",
+      "apply": "Áp dụng",
+      "categories": "Danh mục",
+      "priceRange": "Khoảng giá",
+      "minPrice": "Giá tối thiểu",
+      "maxPrice": "Giá tối đa"
+    },
+    "sort": {
+      "label": "Sắp xếp theo",
+      "placeholder": "Sắp xếp",
+      "newest": "Mới nhất",
+      "priceAsc": "Giá: Thấp đến Cao",
+      "priceDesc": "Giá: Cao đến Thấp",
+      "popular": "Phổ biến"
+    },
+    "viewMode": {
+      "label": "Chế độ xem:",
+      "grid": "Lưới",
+      "list": "Danh sách"
+    },
+    "noProducts": {
+      "title": "Không tìm thấy sản phẩm",
+      "description": "Thử điều chỉnh bộ lọc hoặc từ khóa tìm kiếm của bạn",
+      "clearFilters": "Xóa Bộ Lọc"
+    }
+  },
+  "profile": {
+    "pageTitle": "Hồ Sơ Của Tôi",
+    "personalInfo": {
+      "title": "Thông Tin Cá Nhân",
+      "editButton": "Chỉnh Sửa Hồ Sơ"
+    },
+    "form": {
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Địa Chỉ Email",
+      "phone": "Số Điện Thoại",
+      "changePassword": "Đổi Mật Khẩu",
+      "currentPassword": "Mật Khẩu Hiện Tại",
+      "newPassword": "Mật Khẩu Mới",
+      "confirmPassword": "Xác Nhận Mật Khẩu Mới",
+      "passwordPlaceholder": "••••••••"
+    },
+    "validation": {
+      "firstNameRequired": "Tên là bắt buộc",
+      "lastNameRequired": "Họ là bắt buộc",
+      "emailRequired": "Email là bắt buộc",
+      "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+      "currentPasswordRequired": "Cần mật khẩu hiện tại để đổi mật khẩu",
+      "newPasswordRequired": "Mật khẩu mới là bắt buộc",
+      "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+      "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu mới",
+      "passwordsNotMatch": "Mật khẩu không khớp"
+    },
+    "buttons": {
+      "cancel": "Hủy",
+      "saveChanges": "Lưu Thay Đổi",
+      "saving": "Đang lưu..."
+    },
+    "messages": {
+      "profileUpdated": "Cập nhật hồ sơ thành công",
+      "passwordChanged": "Đổi mật khẩu thành công",
+      "updateFailed": "Cập nhật hồ sơ thất bại"
+    }
+  },
+  "categories": {
+    "pageTitle": "Duyệt Tất Cả Danh Mục",
+    "searchPlaceholder": "Tìm kiếm danh mục...",
+    "loading": {
+      "error": "Lỗi Tải Danh Mục",
+      "message": "Chúng tôi gặp lỗi khi tải danh mục. Vui lòng thử lại sau."
+    },
+    "empty": {
+      "title": "Không tìm thấy danh mục",
+      "message": "Thử từ khóa tìm kiếm khác"
+    },
+    "productCount": "sản phẩm"
+  },
+  "deals": {
+    "hero": {
+      "title": "Siêu Giảm Giá - Trên 50% OFF",
+      "description": "Khám phá các sản phẩm giảm giá sốc với mức giảm trên 50%. Cơ hội có hạn, mua ngay kẻo lỡ!",
+      "badge": "GIẢM GIÁ TRÊN 50%"
+    },
+    "pageDescription": {
+      "withProducts": "Hiển thị {{count}} sản phẩm giảm giá trên 50%",
+      "default": "Khám phá các sản phẩm giảm giá sốc"
+    },
+    "sort": {
+      "placeholder": "Sắp xếp theo",
+      "options": {
+        "discountDesc": "Giảm giá cao nhất",
+        "priceAsc": "Giá: Thấp đến cao", 
+        "priceDesc": "Giá: Cao đến thấp",
+        "newest": "Mới nhất"
+      }
+    },
+    "error": {
+      "title": "Lỗi khi tải sản phẩm giảm giá",
+      "message": "Đã xảy ra lỗi khi tải danh sách sản phẩm giảm giá. Vui lòng thử lại sau."
+    },
+    "empty": {
+      "title": "Không có sản phẩm giảm giá trên 50%",
+      "message": "Vui lòng quay lại sau để xem các ưu đãi mới"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Về BadmintonShop",
+      "subtitle": "Chúng tôi cam kết cung cấp các sản phẩm cầu lông chất lượng cao với giá cả phải chăng và dịch vụ khách hàng xuất sắc."
+    },
+    "story": {
+      "title": "Câu Chuyện Của Chúng Tôi",
+      "paragraph1": "Được thành lập vào năm 2023, BadmintonShop bắt đầu với một ý tưởng đơn giản: làm cho việc mua sắm cầu lông trở nên dễ dàng, thú vị và tiếp cận được với mọi người. Từ một cửa hàng trực tuyến nhỏ, chúng tôi đã phát triển thành một nền tảng cung cấp hàng nghìn sản phẩm cầu lông chuyên nghiệp.",
+      "paragraph2": "Đội ngũ của chúng tôi đam mê tuyển chọn những sản phẩm cầu lông tốt nhất và tạo ra trải nghiệm mua sắm liền mạch. Chúng tôi cẩn thận lựa chọn từng sản phẩm trong kho để đảm bảo nó đáp ứng tiêu chuẩn về chất lượng, giá trị và tính bền vững.",
+      "paragraph3": "Khi chúng tôi tiếp tục phát triển, cam kết về sự hài lòng của khách hàng vẫn là trọng tâm của mọi việc chúng tôi làm. Chúng tôi liên tục cải thiện nền tảng, mở rộng phạm vi sản phẩm cầu lông và tìm những cách mới để làm hài lòng khách hàng.",
+      "imageAlt": "Đội ngũ của chúng tôi đang làm việc"
+    },
+    "values": {
+      "title": "Giá Trị Của Chúng Tôi",
+      "quality": {
+        "title": "Chất Lượng",
+        "description": "Chúng tôi không bao giờ thỏa hiệp về chất lượng. Mỗi sản phẩm cầu lông chúng tôi cung cấp đều được lựa chọn và kiểm tra cẩn thận để đảm bảo đáp ứng tiêu chuẩn cao của chúng tôi."
+      },
+      "customerFirst": {
+        "title": "Khách Hàng Là Trên Hết",
+        "description": "Khách hàng là trung tâm của mọi việc chúng tôi làm. Chúng tôi nỗ lực cung cấp dịch vụ và hỗ trợ xuất sắc ở mọi bước trong hành trình mua sắm cầu lông của bạn."
+      },
+      "innovation": {
+        "title": "Đổi Mới",
+        "description": "Chúng tôi liên tục tìm kiếm những cách mới để cải thiện nền tảng và cung cấp các sản phẩm cầu lông sáng tạo giúp cuộc sống của bạn tốt hơn và thuận tiện hơn."
+      }
+    },
+    "team": {
+      "title": "Đội Ngũ Của Chúng Tôi",
+      "roles": {
+        "founderCeo": "Nhà Sáng Lập & CEO",
+        "cto": "Giám Đốc Công Nghệ",
+        "headOfProduct": "Trưởng Phòng Sản Phẩm", 
+        "customerExperience": "Trải Nghiệm Khách Hàng"
+      }
+    },
+    "cta": {
+      "title": "Sẵn Sàng Bắt Đầu Mua Sắm?",
+      "description": "Khám phá nhiều sản phẩm cầu lông đa dạng và khám phá lý do tại sao hàng nghìn khách hàng chọn BadmintonShop cho nhu cầu mua sắm cầu lông của họ.",
+      "browseProducts": "Duyệt Sản Phẩm",
+      "contactUs": "Liên Hệ Chúng Tôi"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Liên Hệ Chúng Tôi",
+      "subtitle": "Có câu hỏi hoặc phản hồi? Chúng tôi rất muốn nghe từ bạn. Đội ngũ của chúng tôi sẵn sàng hỗ trợ."
+    },
+    "form": {
+      "title": "Gửi Tin Nhắn",
+      "labels": {
+        "name": "Tên Của Bạn",
+        "email": "Địa Chỉ Email",
+        "subject": "Chủ Đề", 
+        "message": "Tin Nhắn"
+      },
+      "subjects": {
+        "placeholder": "Chọn chủ đề",
+        "general": "Câu Hỏi Chung",
+        "support": "Hỗ Trợ Khách Hàng",
+        "feedback": "Phản Hồi",
+        "partnership": "Hợp Tác Kinh Doanh"
+      },
+      "buttons": {
+        "send": "Gửi Tin Nhắn",
+        "sending": "Đang gửi..."
+      },
+      "messages": {
+        "success": "Cảm ơn bạn đã gửi tin nhắn! Chúng tôi sẽ phản hồi bạn sớm nhất có thể.",
+        "error": "Có lỗi xảy ra khi gửi tin nhắn. Vui lòng thử lại."
+      }
+    },
+    "info": {
+      "title": "Thông Tin Liên Hệ",
+      "phone": {
+        "title": "Điện Thoại",
+        "number": "+84 (028) 123-4567",
+        "hours": "Thứ Hai - Thứ Sáu, 9:00 - 18:00"
+      },
+      "email": {
+        "title": "Email",
+        "address": "support@badmintonshop.com",
+        "response": "Chúng tôi sẽ phản hồi trong vòng 24-48 giờ"
+      },
+      "address": {
+        "title": "Địa Chỉ",
+        "street": "123 Đường Thương Mại",
+        "suite": "Tầng 5",
+        "city": "Thành phố Hồ Chí Minh, Việt Nam"
+      }
+    },
+    "social": {
+      "title": "Kết Nối Với Chúng Tôi"
+    },
+    "map": {
+      "title": "Vị Trí Của Chúng Tôi",
+      "placeholder": "Bản đồ placeholder - Thay thế bằng Google Maps hoặc dịch vụ bản đồ khác"
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "items": {
+        "hours": {
+          "question": "Giờ làm việc của bạn là gì?",
+          "answer": "Đội ngũ chăm sóc khách hàng của chúng tôi có mặt từ Thứ Hai đến Thứ Sáu từ 9:00 đến 18:00. Cửa hàng trực tuyến của chúng tôi mở 24/7 để phục vụ việc mua sắm của bạn."
+        },
+        "tracking": {
+          "question": "Làm thế nào tôi có thể theo dõi đơn hàng?",
+          "answer": "Sau khi đơn hàng được gửi đi, bạn sẽ nhận được mã theo dõi qua email. Bạn có thể sử dụng mã này để theo dõi gói hàng trên website của chúng tôi hoặc trực tiếp qua website của đơn vị vận chuyển."
+        },
+        "returns": {
+          "question": "Chính sách đổi trả của bạn là gì?",
+          "answer": "Chúng tôi cung cấp chính sách đổi trả trong 30 ngày cho hầu hết các sản phẩm. Sản phẩm phải được trả lại trong tình trạng và bao bì gốc. Vui lòng truy cập trang Đổi Trả để biết thêm chi tiết."
+        },
+        "shipping": {
+          "question": "Bạn có giao hàng quốc tế không?",
+          "answer": "Có, chúng tôi giao hàng đến hầu hết các quốc gia trên thế giới. Phí và thời gian giao hàng quốc tế tùy thuộc vào địa điểm. Bạn có thể xem các tùy chọn giao hàng có sẵn đến quốc gia của mình trong quá trình thanh toán."
+        }
+      }
+    }
+  },
+  "faqs": {
+    "title": "Câu Hỏi Thường Gặp",
+    "description": "Tìm câu trả lời cho các câu hỏi thường gặp về sản phẩm, vận chuyển, đổi trả và nhiều hơn nữa.",
+    "searchPlaceholder": "Tìm kiếm câu trả lời...",
+    "categoriesTitle": "Danh Mục",
+    "categories": {
+      "all": "Tất Cả FAQ",
+      "account": "Tài Khoản",
+      "payment": "Thanh Toán",
+      "shipping": "Vận Chuyển",
+      "returns": "Đổi Trả & Hoàn Tiền",
+      "products": "Sản Phẩm",
+      "support": "Hỗ Trợ Khách Hàng"
+    },
+    "noResults": {
+      "title": "Không tìm thấy kết quả",
+      "message": "Thử từ khóa tìm kiếm hoặc danh mục khác",
+      "resetButton": "Đặt lại bộ lọc"
+    },
+    "questions": {
+      "createAccount": {
+        "question": "Làm thế nào để tạo tài khoản?",
+        "answer": "Để tạo tài khoản, nhấp vào nút \"Đăng Ký\" ở góc trên bên phải của trang. Điền thông tin của bạn bao gồm tên, địa chỉ email và mật khẩu. Sau khi gửi, bạn sẽ nhận được email xác minh. Nhấp vào liên kết trong email để xác minh tài khoản và bắt đầu mua sắm."
+      },
+      "forgotPassword": {
+        "question": "Tôi quên mật khẩu. Làm thế nào để đặt lại?",
+        "answer": "Nếu bạn quên mật khẩu, nhấp vào nút \"Đăng Nhập\", sau đó chọn \"Quên Mật Khẩu\". Nhập địa chỉ email liên kết với tài khoản của bạn, và chúng tôi sẽ gửi cho bạn liên kết đặt lại mật khẩu. Làm theo hướng dẫn trong email để tạo mật khẩu mới."
+      },
+      "updateAccount": {
+        "question": "Làm thế nào để cập nhật thông tin tài khoản?",
+        "answer": "Để cập nhật thông tin tài khoản, đăng nhập vào tài khoản và vào phần \"Tài Khoản Của Tôi\". Từ đó, chọn \"Hồ Sơ\" hoặc \"Cài Đặt Tài Khoản\" nơi bạn có thể chỉnh sửa thông tin cá nhân, thay đổi mật khẩu và cập nhật tùy chọn."
+      },
+      "paymentMethods": {
+        "question": "Bạn chấp nhận những phương thức thanh toán nào?",
+        "answer": "Chúng tôi chấp nhận các phương thức thanh toán khác nhau bao gồm thẻ tín dụng/ghi nợ (Visa, Mastercard, American Express), PayPal, Apple Pay và Google Pay. Tất cả giao dịch đều an toàn và được mã hóa để bảo vệ thông tin của bạn."
+      },
+      "creditCardSafety": {
+        "question": "Có an toàn khi sử dụng thẻ tín dụng trên website của bạn không?",
+        "answer": "Có, website của chúng tôi sử dụng mã hóa SSL tiêu chuẩn ngành để bảo vệ thông tin cá nhân và thanh toán của bạn. Chúng tôi tuân thủ PCI DSS và không bao giờ lưu trữ chi tiết thẻ tín dụng đầy đủ trên máy chủ."
+      },
+      "paymentTiming": {
+        "question": "Khi nào thanh toán của tôi sẽ được xử lý?",
+        "answer": "Thanh toán của bạn sẽ được xử lý ngay lập tức sau khi bạn đặt hàng. Nếu có vấn đề với thanh toán, bạn sẽ được thông báo qua email với hướng dẫn cách giải quyết."
+      },
+      "deliveryTime": {
+        "question": "Mất bao lâu để nhận được đơn hàng?",
+        "answer": "Vận chuyển tiêu chuẩn thường mất 3-5 ngày làm việc trong nội địa. Vận chuyển nhanh có sẵn cho giao hàng 1-2 ngày làm việc. Thời gian vận chuyển quốc tế tùy theo địa điểm, thường từ 7-14 ngày làm việc."
+      },
+      "internationalShipping": {
+        "question": "Bạn có giao hàng quốc tế không?",
+        "answer": "Có, chúng tôi giao hàng đến hầu hết các quốc gia trên thế giới. Phí và thời gian giao hàng quốc tế tùy theo địa điểm. Bạn có thể xem các tùy chọn giao hàng có sẵn đến quốc gia của mình trong quá trình thanh toán."
+      },
+      "orderTracking": {
+        "question": "Làm thế nào để theo dõi đơn hàng?",
+        "answer": "Sau khi đơn hàng được gửi đi, bạn sẽ nhận được email xác nhận gửi hàng với mã theo dõi. Bạn có thể sử dụng mã này để theo dõi gói hàng trên website của chúng tôi trong phần \"Theo Dõi Đơn Hàng\" hoặc trực tiếp qua website của đơn vị vận chuyển."
+      },
+      "returnPolicy": {
+        "question": "Chính sách đổi trả của bạn là gì?",
+        "answer": "Chúng tôi cung cấp chính sách đổi trả 30 ngày cho hầu hết các sản phẩm. Sản phẩm phải được trả lại trong tình trạng và bao bì gốc. Vui lòng truy cập trang Đổi Trả để biết thêm chi tiết và bắt đầu quy trình đổi trả."
+      },
+      "howToReturn": {
+        "question": "Làm thế nào để trả lại sản phẩm?",
+        "answer": "Để trả lại sản phẩm, đăng nhập vào tài khoản, vào \"Lịch Sử Đơn Hàng\" và chọn đơn hàng chứa sản phẩm bạn muốn trả. Nhấp \"Trả Hàng\" và làm theo hướng dẫn. Bạn sẽ nhận được nhãn vận chuyển trả hàng qua email."
+      },
+      "refundTiming": {
+        "question": "Khi nào tôi sẽ nhận được hoàn tiền?",
+        "answer": "Sau khi chúng tôi nhận và kiểm tra hàng trả, chúng tôi sẽ xử lý hoàn tiền. Điều này thường mất 3-5 ngày làm việc. Hoàn tiền sẽ được chuyển về phương thức thanh toán gốc và có thể mất thêm 2-7 ngày làm việc để xuất hiện trên sao kê, tùy thuộc vào ngân hàng hoặc công ty thẻ tín dụng."
+      },
+      "priceMatching": {
+        "question": "Bạn có chấp nhận so khớp giá không?",
+        "answer": "Có, chúng tôi cung cấp so khớp giá cho các sản phẩm giống hệt được tìm thấy với giá thấp hơn từ nhà bán lẻ được ủy quyền. Vui lòng liên hệ đội ngũ chăm sóc khách hàng với chi tiết về ưu đãi của đối thủ cạnh tranh trong vòng 14 ngày kể từ khi mua hàng."
+      },
+      "warranty": {
+        "question": "Sản phẩm của bạn có được bảo hành không?",
+        "answer": "Hầu hết sản phẩm đi kèm với bảo hành của nhà sản xuất. Thời gian bảo hành và phạm vi bảo hiểm tùy theo sản phẩm và thương hiệu. Thông tin bảo hành được liệt kê trên trang sản phẩm và bao gồm trong giao dịch mua của bạn."
+      },
+      "contactSupport": {
+        "question": "Làm thế nào để liên hệ dịch vụ khách hàng?",
+        "answer": "Bạn có thể liên hệ đội ngũ chăm sóc khách hàng qua nhiều kênh: email tại support@badmintonshop.com, điện thoại tại +84 (028) 123-4567 trong giờ làm việc (Thứ 2-6, 9AM-6PM), hoặc qua tính năng chat trực tiếp trên website."
+      }
+    },
+    "stillHaveQuestions": {
+      "title": "Vẫn còn câu hỏi?",
+      "description": "Nếu bạn không thể tìm thấy câu trả lời cho câu hỏi của mình, đội ngũ hỗ trợ khách hàng của chúng tôi sẵn sàng giúp đỡ.",
+      "contactButton": "Liên Hệ Chúng Tôi"
+    }
+  },
+  "shippingReturns": {
+    "title": "Giao Hàng & Trả Hàng",
+    "description": "Thông tin về chính sách giao hàng, thời gian giao hàng và quy trình trả hàng của chúng tôi.",
+    "features": {
+      "freeShipping": {
+        "title": "Miễn Phí Vận Chuyển",
+        "description": "Cho tất cả đơn hàng trên 1.200.000đ trong nội địa"
+      },
+      "fastDelivery": {
+        "title": "Giao Hàng Nhanh",
+        "description": "Hầu hết đơn hàng được giao trong vòng 3-5 ngày làm việc"
+      },
+      "easyReturns": {
+        "title": "Trả Hàng Dễ Dàng",
+        "description": "Chính sách trả hàng không rắc rối trong 30 ngày"
+      }
+    },
+    "shipping": {
+      "title": "Thông Tin Giao Hàng",
+      "methods": {
+        "title": "Phương Thức Giao Hàng & Thời Gian Giao Hàng",
+        "table": {
+          "method": "Phương Thức Giao Hàng",
+          "deliveryTime": "Thời Gian Giao Hàng Dự Kiến",
+          "cost": "Chi Phí",
+          "standard": "Giao Hàng Tiêu Chuẩn",
+          "express": "Giao Hàng Nhanh",
+          "international": "Giao Hàng Quốc Tế",
+          "standardTime": "3-5 ngày làm việc",
+          "expressTime": "1-2 ngày làm việc",
+          "internationalTime": "7-14 ngày làm việc",
+          "standardCost": "50.000đ (Miễn phí cho đơn hàng trên 1.200.000đ)",
+          "expressCost": "120.000đ",
+          "internationalCost": "Tùy theo địa điểm"
+        }
+      },
+      "processing": {
+        "title": "Xử Lý Đơn Hàng",
+        "description1": "Đơn hàng thường được xử lý trong vòng 1-2 ngày làm việc sau khi xác nhận thanh toán. Trong mùa cao điểm hoặc các chương trình khuyến mãi, việc xử lý có thể mất thêm 1-2 ngày làm việc.",
+        "description2": "Sau khi đơn hàng được gửi đi, bạn sẽ nhận được email xác nhận giao hàng với thông tin theo dõi. Bạn cũng có thể theo dõi đơn hàng bằng cách đăng nhập vào tài khoản và xem lịch sử đơn hàng."
+      },
+      "international": {
+        "title": "Giao Hàng Quốc Tế",
+        "description1": "Chúng tôi giao hàng đến hầu hết các quốc gia trên thế giới. Khách hàng quốc tế có thể phải chịu thuế nhập khẩu, thuế và phí thông quan, đây là trách nhiệm của người nhận. Các khoản phí này tùy theo từng quốc gia và không bao gồm trong chi phí vận chuyển hoặc giá sản phẩm.",
+        "description2": "Thời gian giao hàng quốc tế có thể thay đổi tùy thuộc vào việc xử lý hải quan tại quốc gia của bạn. Vui lòng cho phép thêm thời gian để các gói hàng quốc tế đến nơi."
+      }
+    },
+    "returns": {
+      "title": "Trả Hàng & Hoàn Tiền",
+      "policy": {
+        "title": "Chính Sách Trả Hàng",
+        "description1": "Chúng tôi cung cấp chính sách trả hàng 30 ngày cho hầu hết các sản phẩm. Để đủ điều kiện trả hàng, sản phẩm của bạn phải chưa sử dụng, trong tình trạng như khi bạn nhận được và trong bao bì gốc. Một số sản phẩm nhất định, chẳng hạn như các sản phẩm được cá nhân hóa hoặc phần mềm có thể tải xuống, không đủ điều kiện để trả lại.",
+        "description2": "Để bắt đầu trả hàng, vui lòng đăng nhập vào tài khoản của bạn, chuyển đến lịch sử đơn hàng và chọn đơn hàng chứa sản phẩm bạn muốn trả lại. Làm theo hướng dẫn để tạo nhãn vận chuyển trả hàng và ủy quyền trả hàng."
+      },
+      "process": {
+        "title": "Quy Trình Hoàn Tiền",
+        "description1": "Khi chúng tôi nhận được và kiểm tra hàng trả lại của bạn, chúng tôi sẽ gửi email để thông báo rằng chúng tôi đã nhận được sản phẩm trả lại. Chúng tôi cũng sẽ thông báo về việc phê duyệt hoặc từ chối hoàn tiền của bạn.",
+        "description2": "Nếu được phê duyệt, khoản hoàn tiền của bạn sẽ được xử lý, và khoản tín dụng sẽ tự động được áp dụng cho phương thức thanh toán ban đầu của bạn trong vòng 3-5 ngày làm việc. Xin lưu ý rằng có thể mất thêm 2-7 ngày làm việc để khoản hoàn tiền xuất hiện trên sao kê của bạn, tùy thuộc vào tổ chức tài chính của bạn.",
+        "description3": "Chi phí vận chuyển không được hoàn lại. Nếu bạn nhận được hoàn tiền, chi phí vận chuyển trả hàng sẽ được khấu trừ khỏi khoản hoàn tiền của bạn trừ khi việc trả hàng là do lỗi của chúng tôi (bạn nhận được sản phẩm không đúng hoặc bị lỗi)."
+      },
+      "exchanges": {
+        "title": "Đổi Hàng",
+        "description": "Nếu bạn cần đổi một sản phẩm lấy cùng sản phẩm đó với kích thước hoặc màu sắc khác, vui lòng bắt đầu trả hàng và đặt đơn hàng mới cho sản phẩm mong muốn. Điều này đảm bảo thời gian xử lý nhanh nhất và tính khả dụng của sản phẩm bạn muốn."
+      },
+      "damaged": {
+        "title": "Sản Phẩm Bị Hỏng Hoặc Lỗi",
+        "description": "Nếu bạn nhận được sản phẩm bị hỏng hoặc lỗi, vui lòng liên hệ với đội ngũ chăm sóc khách hàng của chúng tôi trong vòng 48 giờ kể từ khi nhận đơn hàng. Chúng tôi sẽ đưa ra hướng dẫn trả lại sản phẩm và gửi sản phẩm thay thế hoặc hoàn tiền đầy đủ, bao gồm chi phí vận chuyển."
+      }
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "questions": {
+        "changeAddress": {
+          "question": "Tôi có thể thay đổi địa chỉ giao hàng sau khi đặt hàng không?",
+          "answer": "Nếu bạn cần thay đổi địa chỉ giao hàng, vui lòng liên hệ với đội ngũ chăm sóc khách hàng của chúng tôi càng sớm càng tốt. Chúng tôi thường có thể đáp ứng việc thay đổi địa chỉ nếu đơn hàng chưa được xử lý để giao hàng."
+        },
+        "poBox": {
+          "question": "Bạn có giao hàng đến hộp thư bưu điện không?",
+          "answer": "Có, chúng tôi giao hàng đến hộp thư bưu điện cho giao hàng tiêu chuẩn. Tuy nhiên, giao hàng nhanh và một số sản phẩm lớn có thể yêu cầu địa chỉ thực tế để giao hàng."
+        },
+        "trackOrder": {
+          "question": "Làm thế nào tôi có thể theo dõi đơn hàng?",
+          "answer": "Sau khi đơn hàng được gửi đi, bạn sẽ nhận được email xác nhận giao hàng với thông tin theo dõi. Bạn cũng có thể theo dõi đơn hàng bằng cách đăng nhập vào tài khoản và xem lịch sử đơn hàng của bạn."
+        },
+        "lostPackage": {
+          "question": "Tôi nên làm gì nếu gói hàng của tôi bị mất hoặc bị đánh cắp?",
+          "answer": "Nếu thông tin theo dõi của bạn cho thấy gói hàng đã được giao nhưng bạn chưa nhận được, vui lòng kiểm tra với hàng xóm hoặc bưu điện địa phương trước. Nếu bạn tin rằng gói hàng của mình bị mất hoặc bị đánh cắp, hãy liên hệ với đội ngũ chăm sóc khách hàng trong vòng 7 ngày kể từ ngày giao hàng, và chúng tôi sẽ giúp giải quyết vấn đề."
+        },
+        "giftReturn": {
+          "question": "Tôi có thể trả lại quà tặng không?",
+          "answer": "Có, quà tặng có thể được trả lại theo chính sách trả hàng tiêu chuẩn của chúng tôi. Bạn sẽ cần số đơn hàng hoặc biên lai quà tặng. Khoản hoàn tiền sẽ được cấp dưới dạng tín dụng cửa hàng cho người nhận quà."
+        }
+      }
+    },
+    "contact": {
+      "title": "Cần Thêm Hỗ Trợ?",
+      "description": "Nếu bạn có bất kỳ câu hỏi nào về giao hàng, trả hàng hoặc hoàn tiền, đội ngũ chăm sóc khách hàng của chúng tôi sẵn sàng hỗ trợ.",
+      "contactUs": "Liên Hệ Chúng Tôi",
+      "viewAllFaqs": "Xem Tất Cả FAQ"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Chính Sách Bảo Mật",
+    "lastUpdated": "Cập nhật lần cuối: 1 tháng 6, 2023",
+    "introduction": "Tại BadmintonShop, chúng tôi coi trọng quyền riêng tư của bạn. Chính sách bảo mật này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn truy cập trang web của chúng tôi hoặc thực hiện mua hàng. Vui lòng đọc kỹ chính sách bảo mật này. Nếu bạn không đồng ý với các điều khoản của chính sách bảo mật này, vui lòng không truy cập trang web.",
+    "informationWeCollect": {
+      "title": "Thông Tin Chúng Tôi Thu Thập",
+      "description": "Chúng tôi thu thập thông tin về bạn theo nhiều cách khác nhau khi bạn sử dụng trang web của chúng tôi. Thông tin này có thể bao gồm:",
+      "personalInfo": {
+        "title": "Thông Tin Cá Nhân:",
+        "description": "Tên, địa chỉ email, địa chỉ bưu điện, số điện thoại và các thông tin khác bạn cung cấp khi tạo tài khoản, thực hiện mua hàng hoặc liên hệ với dịch vụ khách hàng."
+      },
+      "transactionInfo": {
+        "title": "Thông Tin Giao Dịch:",
+        "description": "Chi tiết về các giao dịch mua hàng bạn thực hiện, bao gồm thông tin thanh toán, chi tiết sản phẩm và thông tin vận chuyển."
+      },
+      "logData": {
+        "title": "Dữ Liệu Nhật Ký:",
+        "description": "Thông tin mà trình duyệt của bạn tự động gửi bất cứ khi nào bạn truy cập trang web của chúng tôi, bao gồm địa chỉ IP, loại trình duyệt, hệ điều hành và URL giới thiệu."
+      },
+      "cookies": {
+        "title": "Cookie và Công Nghệ Tương Tự:",
+        "description": "Chúng tôi sử dụng cookie và các công nghệ theo dõi tương tự để theo dõi hoạt động trên trang web của chúng tôi và lưu giữ một số thông tin để nâng cao trải nghiệm của bạn."
+      }
+    },
+    "howWeUse": {
+      "title": "Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn",
+      "description": "Chúng tôi có thể sử dụng thông tin chúng tôi thu thập cho nhiều mục đích khác nhau, bao gồm:",
+      "items": [
+        "Xử lý và thực hiện đơn hàng của bạn",
+        "Cung cấp dịch vụ khách hàng và phản hồi các yêu cầu",
+        "Gửi email giao dịch và xác nhận đơn hàng",
+        "Gửi thông tin tiếp thị (với sự đồng ý của bạn)",
+        "Cải thiện trang web và sản phẩm của chúng tôi",
+        "Cá nhân hóa trải nghiệm mua sắm của bạn",
+        "Ngăn chặn gian lận và tăng cường bảo mật",
+        "Tuân thủ các nghĩa vụ pháp lý"
+      ]
+    },
+    "sharingInfo": {
+      "title": "Chia Sẻ Thông Tin Của Bạn",
+      "description": "Chúng tôi có thể chia sẻ thông tin của bạn với bên thứ ba trong các tình huống sau:",
+      "serviceProviders": {
+        "title": "Nhà Cung Cấp Dịch Vụ:",
+        "description": "Chúng tôi có thể chia sẻ thông tin của bạn với các nhà cung cấp dịch vụ bên thứ ba thực hiện các dịch vụ thay mặt chúng tôi, chẳng hạn như xử lý thanh toán, vận chuyển, phân tích dữ liệu, gửi email và dịch vụ khách hàng."
+      },
+      "businessTransfers": {
+        "title": "Chuyển Giao Kinh Doanh:",
+        "description": "Nếu chúng tôi tham gia vào việc sáp nhập, mua lại hoặc bán tất cả hoặc một phần tài sản của chúng tôi, thông tin của bạn có thể được chuyển giao như một phần của giao dịch đó."
+      },
+      "legalRequirements": {
+        "title": "Yêu Cầu Pháp Lý:",
+        "description": "Chúng tôi có thể tiết lộ thông tin của bạn nếu được yêu cầu theo pháp luật hoặc để đáp ứng các yêu cầu hợp lệ của các cơ quan công quyền."
+      },
+      "withConsent": {
+        "title": "Với Sự Đồng Ý Của Bạn:",
+        "description": "Chúng tôi có thể chia sẻ thông tin của bạn với bên thứ ba khi bạn đã đồng ý cho chúng tôi làm điều đó."
+      }
+    },
+    "dataSecurity": {
+      "title": "Bảo Mật Dữ Liệu",
+      "description": "Chúng tôi thực hiện các biện pháp kỹ thuật và tổ chức phù hợp để duy trì sự an toàn của thông tin cá nhân của bạn. Tuy nhiên, không có quá trình truyền qua Internet nào hoàn toàn an toàn hoặc không có lỗi. Đặc biệt, các email được gửi đến hoặc từ trang web của chúng tôi có thể không an toàn, và bạn nên cẩn thận khi quyết định thông tin nào gửi cho chúng tôi qua email."
+    },
+    "yourRights": {
+      "title": "Quyền Của Bạn",
+      "description": "Tùy thuộc vào vị trí của bạn, bạn có thể có một số quyền nhất định liên quan đến thông tin cá nhân của mình, bao gồm:",
+      "items": [
+        "Quyền truy cập thông tin cá nhân chúng tôi lưu giữ về bạn",
+        "Quyền yêu cầu chỉnh sửa thông tin không chính xác",
+        "Quyền yêu cầu xóa thông tin của bạn",
+        "Quyền phản đối việc xử lý thông tin của bạn",
+        "Quyền chuyển dữ liệu",
+        "Quyền rút lại sự đồng ý"
+      ],
+      "exerciseRights": "Để thực hiện các quyền này, vui lòng liên hệ với chúng tôi bằng thông tin được cung cấp trong phần \"Liên Hệ Chúng Tôi\" bên dưới."
+    },
+    "cookies": {
+      "title": "Cookie",
+      "description": "Chúng tôi sử dụng cookie và các công nghệ theo dõi tương tự để theo dõi hoạt động trên trang web của chúng tôi và lưu giữ một số thông tin. Cookie là các tệp với một lượng nhỏ dữ liệu có thể bao gồm một định danh duy nhất ẩn danh. Bạn có thể hướng dẫn trình duyệt của mình từ chối tất cả cookie hoặc chỉ ra khi một cookie đang được gửi. Tuy nhiên, nếu bạn không chấp nhận cookie, bạn có thể không sử dụng được một số phần của trang web chúng tôi."
+    },
+    "childrenPrivacy": {
+      "title": "Quyền Riêng Tư Trẻ Em",
+      "description": "Trang web của chúng tôi không dành cho trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi. Nếu bạn là cha mẹ hoặc người giám hộ và bạn biết rằng con bạn đã cung cấp thông tin cá nhân cho chúng tôi, vui lòng liên hệ với chúng tôi để chúng tôi có thể thực hiện các hành động cần thiết."
+    },
+    "changes": {
+      "title": "Thay Đổi Chính Sách Bảo Mật Này",
+      "description": "Chúng tôi có thể cập nhật Chính sách bảo mật của mình theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng Chính sách bảo mật mới trên trang này và cập nhật ngày \"Cập nhật lần cuối\". Bạn nên xem lại Chính sách bảo mật này định kỳ để biết về các thay đổi."
+    },
+    "contact": {
+      "title": "Liên Hệ Chúng Tôi",
+      "description": "Nếu bạn có bất kỳ câu hỏi nào về Chính sách bảo mật này, vui lòng liên hệ với chúng tôi tại:",
+      "email": "Email: privacy@shopmini.com",
+      "phone": "Điện thoại: +84 (028) 123-4567",
+      "address": "Địa chỉ: 123 Đường Thương Mại, Tầng 5, Thành phố Hồ Chí Minh, Việt Nam"
+    },
+    "footer": {
+      "description": "Nếu bạn có bất kỳ câu hỏi hoặc quan ngại nào về các thực hành bảo mật của chúng tôi, xin đừng ngần ngại liên hệ với chúng tôi.",
+      "contactButton": "Liên Hệ Chúng Tôi"
+    }
+  },
+  "terms": {
+    "title": "Điều Khoản & Điều Kiện",
+    "lastUpdated": "Cập nhật lần cuối: 1 tháng 6, 2023",
+    "introduction": "Chào mừng bạn đến với BadmintonShop. Các điều khoản và điều kiện này nêu ra các quy tắc và quy định cho việc sử dụng trang web của chúng tôi. Bằng cách truy cập trang web này, chúng tôi cho rằng bạn chấp nhận đầy đủ các điều khoản và điều kiện này. Đừng tiếp tục sử dụng BadmintonShop nếu bạn không chấp nhận tất cả các điều khoản và điều kiện được nêu trên trang này.",
+    "definitions": {
+      "title": "1. Định Nghĩa",
+      "description": "Thuật ngữ sau đây áp dụng cho các Điều khoản và Điều kiện này, Tuyên bố về Quyền riêng tư và Thông báo Miễn trừ trách nhiệm và bất kỳ hoặc tất cả các Thỏa thuận: \"Khách hàng\", \"Bạn\" và \"Của bạn\" đề cập đến bạn, người truy cập trang web này và chấp nhận các điều khoản và điều kiện của Công ty. \"Công ty\", \"Chúng tôi\", \"Của chúng tôi\" và \"Chúng ta\", đề cập đến BadmintonShop. \"Bên\", \"Các bên\", hoặc \"Chúng ta\", đề cập đến cả Khách hàng và chúng tôi, hoặc Khách hàng hoặc chúng tôi."
+    },
+    "license": {
+      "title": "2. Giấy Phép",
+      "description1": "Trừ khi có quy định khác, BadmintonShop và/hoặc các nhà cấp phép của mình sở hữu các quyền sở hữu trí tuệ đối với tất cả tài liệu trên BadmintonShop. Tất cả các quyền sở hữu trí tuệ được bảo lưu. Bạn có thể xem và/hoặc in các trang từ trang web để sử dụng cá nhân của riêng bạn tùy thuộc vào các hạn chế được nêu trong các điều khoản và điều kiện này.",
+      "description2": "Bạn không được:",
+      "restrictions": [
+        "Xuất bản lại tài liệu từ trang web này",
+        "Bán, cho thuê hoặc cấp phép lại tài liệu từ trang web này",
+        "Sao chép, nhân bản hoặc copy tài liệu từ trang web này",
+        "Phân phối lại nội dung từ BadmintonShop (trừ khi nội dung được tạo đặc biệt để phân phối lại)"
+      ]
+    },
+    "userAccount": {
+      "title": "3. Tài Khoản Người Dùng",
+      "description": "Nếu bạn tạo tài khoản trên trang web của chúng tôi, bạn có trách nhiệm duy trì tính bảo mật của tài khoản của mình, và bạn hoàn toàn chịu trách nhiệm cho tất cả các hoạt động xảy ra dưới tài khoản và bất kỳ hành động nào khác được thực hiện liên quan đến tài khoản. Bạn phải thông báo ngay lập tức cho chúng tôi về bất kỳ việc sử dụng trái phép nào đối với tài khoản của bạn hoặc bất kỳ vi phạm bảo mật nào khác."
+    },
+    "productsServices": {
+      "title": "4. Sản Phẩm và Dịch Vụ",
+      "description1": "Tất cả các sản phẩm và dịch vụ được hiển thị trên trang web của chúng tôi tùy thuộc vào tính khả dụng. Chúng tôi bảo lưu quyền ngừng bất kỳ sản phẩm hoặc dịch vụ nào bất cứ lúc nào. Giá cho các sản phẩm của chúng tôi có thể thay đổi mà không cần thông báo. Chúng tôi bảo lưu quyền bất cứ lúc nào để sửa đổi hoặc ngừng bất kỳ sản phẩm hoặc dịch vụ nào mà không cần thông báo.",
+      "description2": "Chúng tôi sẽ không chịu trách nhiệm với bạn hoặc bất kỳ bên thứ ba nào đối với bất kỳ sự sửa đổi, thay đổi giá, đình chỉ hoặc ngừng bất kỳ sản phẩm hoặc dịch vụ nào."
+    },
+    "accuracyInfo": {
+      "title": "5. Tính Chính Xác của Thông Tin",
+      "description": "Chúng tôi cố gắng cung cấp mô tả sản phẩm, giá cả và thông tin về tính khả dụng chính xác. Tuy nhiên, chúng tôi không đảm bảo rằng mô tả sản phẩm, giá cả hoặc nội dung khác trên trang web này là chính xác, đầy đủ, đáng tin cậy, hiện tại hoặc không có lỗi. Nếu một sản phẩm được cung cấp bởi BadmintonShop không như được mô tả, biện pháp khắc phục duy nhất của bạn là trả lại trong tình trạng chưa sử dụng."
+    },
+    "orderingPayment": {
+      "title": "6. Đặt Hàng và Thanh Toán",
+      "description1": "Khi bạn đặt hàng, bạn đang đề nghị mua một sản phẩm với giá được liệt kê. Chúng tôi bảo lưu quyền chấp nhận hoặc từ chối đơn hàng của bạn vì bất kỳ lý do gì, bao gồm không có sản phẩm, lỗi về giá cả hoặc thông tin sản phẩm, hoặc vấn đề với phương thức thanh toán của bạn.",
+      "description2": "Bằng cách đặt hàng, bạn đảm bảo rằng bạn ít nhất 18 tuổi và thông tin bạn cung cấp cho chúng tôi trong quá trình đặt hàng là chính xác và đầy đủ. Bạn chịu trách nhiệm cho tất cả các khoản phí phát sinh dưới tài khoản của bạn."
+    },
+    "shippingDelivery": {
+      "title": "7. Giao Hàng và Vận Chuyển",
+      "description": "Chúng tôi sẽ cố gắng hết sức để giao sản phẩm trong khung thời gian được chỉ ra trên trang web của chúng tôi. Tuy nhiên, thời gian giao hàng chỉ là ước tính và không được đảm bảo. Chúng tôi không chịu trách nhiệm cho sự chậm trễ nằm ngoài tầm kiểm soát của chúng tôi, bao gồm sự chậm trễ do nhà vận chuyển, thời tiết hoặc các sự kiện khác."
+    },
+    "returnsRefunds": {
+      "title": "8. Trả Hàng và Hoàn Tiền",
+      "description": "Chính sách trả hàng và hoàn tiền của chúng tôi được nêu trong trang Giao Hàng & Trả Hàng của chúng tôi. Bằng cách mua hàng, bạn đồng ý với các điều khoản của chính sách đó. Chúng tôi bảo lưu quyền sửa đổi chính sách trả hàng và hoàn tiền của mình bất cứ lúc nào."
+    },
+    "limitationLiability": {
+      "title": "9. Giới Hạn Trách Nhiệm",
+      "description": "Trong mọi trường hợp, BadmintonShop, cũng như các giám đốc, nhân viên, đối tác, đại lý, nhà cung cấp hoặc chi nhánh của mình, sẽ không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, do hậu quả hoặc trừng phạt nào, bao gồm nhưng không giới hạn ở việc mất lợi nhuận, dữ liệu, sử dụng, thiện chí hoặc các tổn thất vô hình khác, phát sinh từ (i) việc bạn truy cập hoặc sử dụng hoặc không thể truy cập hoặc sử dụng trang web; (ii) bất kỳ hành vi hoặc nội dung nào của bên thứ ba trên trang web; (iii) bất kỳ nội dung nào thu được từ trang web; và (iv) truy cập, sử dụng hoặc thay đổi trái phép các truyền tải hoặc nội dung của bạn, có dựa trên bảo hành, hợp đồng, tra tấn (bao gồm cả sơ suất) hoặc bất kỳ lý thuyết pháp lý nào khác, cho dù chúng tôi có được thông báo về khả năng xảy ra thiệt hại đó hay không."
+    },
+    "indemnification": {
+      "title": "10. Bồi Thường",
+      "description": "Bạn đồng ý bồi thường, bảo vệ và giữ cho BadmintonShop, các công ty mẹ, công ty con, chi nhánh, đối tác, cán bộ, giám đốc, đại lý, nhà thầu, người cấp phép, nhà cung cấp dịch vụ, nhà thầu phụ, nhà cung cấp, thực tập sinh và nhân viên của mình được bảo vệ khỏi bất kỳ khiếu nại hoặc yêu cầu nào, bao gồm phí luật sư hợp lý, do bất kỳ bên thứ ba nào đưa ra do hoặc phát sinh từ vi phạm của bạn đối với các Điều khoản và Điều kiện này hoặc các tài liệu mà chúng kết hợp bằng cách tham chiếu, hoặc vi phạm của bạn đối với bất kỳ luật nào hoặc quyền của bên thứ ba."
+    },
+    "severability": {
+      "title": "11. Tính Có Thể Tách Rời",
+      "description": "Trong trường hợp bất kỳ điều khoản nào của các Điều khoản và Điều kiện này được xác định là bất hợp pháp, vô hiệu hoặc không thể thực thi, điều khoản đó vẫn sẽ có thể thực thi ở mức độ tối đa được phép bởi luật áp dụng, và phần không thể thực thi sẽ được coi là tách rời khỏi các Điều khoản và Điều kiện này, việc xác định đó sẽ không ảnh hưởng đến tính hợp lệ và khả năng thực thi của bất kỳ điều khoản còn lại nào khác."
+    },
+    "termination": {
+      "title": "12. Chấm Dứt",
+      "description": "Các nghĩa vụ và trách nhiệm của các bên phát sinh trước ngày chấm dứt sẽ tồn tại sau khi chấm dứt thỏa thuận này cho tất cả các mục đích. Các Điều khoản và Điều kiện này có hiệu lực trừ khi và cho đến khi được chấm dứt bởi bạn hoặc chúng tôi. Bạn có thể chấm dứt các Điều khoản và Điều kiện này bất cứ lúc nào bằng cách thông báo cho chúng tôi rằng bạn không còn muốn sử dụng Dịch vụ của chúng tôi, hoặc khi bạn ngừng sử dụng trang web của chúng tôi."
+    },
+    "governingLaw": {
+      "title": "13. Luật Điều Chỉnh",
+      "description": "Các Điều khoản và Điều kiện này sẽ được điều chỉnh và giải thích theo luật pháp của Việt Nam, và bạn đồng ý tuân theo thẩm quyền không độc quyền của các tòa án tỉnh và liên bang tại Việt Nam để giải quyết bất kỳ tranh chấp nào."
+    },
+    "changesToTerms": {
+      "title": "14. Thay Đổi Điều Khoản",
+      "description": "Chúng tôi bảo lưu quyền, theo quyết định riêng của mình, để cập nhật, thay đổi hoặc thay thế bất kỳ phần nào của các Điều khoản và Điều kiện này bằng cách đăng các cập nhật và thay đổi lên trang web của chúng tôi. Trách nhiệm của bạn là kiểm tra trang web của chúng tôi định kỳ để biết các thay đổi. Việc bạn tiếp tục sử dụng hoặc truy cập trang web của chúng tôi sau khi đăng bất kỳ thay đổi nào đối với các Điều khoản và Điều kiện này sẽ tạo thành sự chấp nhận những thay đổi đó."
+    },
+    "contactInfo": {
+      "title": "15. Thông Tin Liên Hệ",
+      "description": "Câu hỏi về Điều khoản và Điều kiện nên được gửi cho chúng tôi tại legal@shopmini.com."
+    },
+    "footer": {
+      "description": "Nếu bạn có bất kỳ câu hỏi hoặc quan ngại nào về các điều khoản và điều kiện của chúng tôi, xin đừng ngần ngại liên hệ với chúng tôi.",
+      "contactButton": "Liên Hệ Chúng Tôi"
+    }
+  },
+  "common": {
+    "tryAgain": "Thử Lại",
+    "previous": "Trước",
+    "next": "Tiếp",
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "success": "Thành công"
+  },
+  "news": {
+    "title": "Tin tức mới",
+    "emptyMessage": "Hiện tại chưa có tin tức nào",
+    "readMore": "Đọc thêm",
+    "publishedOn": "Xuất bản vào",
+    "author": "Tác giả",
+    "viewCount": "lượt xem",
+    "categories": "Danh mục",
+    "relatedNews": "Tin tức liên quan",
+    "pageTitle": "Tin tức",
+    "pageDescription": "Cập nhật những tin tức mới nhất về cầu lông và thể thao",
+    "searchPlaceholder": "Tìm kiếm tin tức...",
+    "noSearchResults": "Không tìm thấy tin tức phù hợp với từ khóa tìm kiếm",
+    "backToHome": "Quay lại trang chủ"
+  }
+}
