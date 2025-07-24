@@ -1,169 +1,161 @@
-# BadmintonShop Backend API
+# 📚 Tài Liệu Hướng Dẫn BadmintonShop
 
-Backend API cho website bán đồ cầu lông BadmintonShop, được xây dựng bằng Node.js, Express và Sequelize.
+## 👋 Giới Thiệu
 
-## Tính năng
+Chào mừng bạn đến với tài liệu hướng dẫn cho **BadmintonShop**! Đây là bộ source code e-commerce hoàn chỉnh chuyên về đồ cầu lông, được xây dựng với các công nghệ hiện đại nhất, giúp bạn nhanh chóng triển khai một website bán hàng chuyên nghiệp.
 
-- Xác thực người dùng (đăng ký, đăng nhập, quên mật khẩu)
-- Quản lý sản phẩm và danh mục
-- Giỏ hàng và thanh toán
-- Quản lý đơn hàng
-- Đánh giá sản phẩm
-- Danh sách yêu thích
-- Quản lý địa chỉ người dùng
+## 📋 Nội Dung
 
-## Yêu cầu
+Tài liệu này bao gồm các hướng dẫn chi tiết để giúp bạn cài đặt, cấu hình và sử dụng BadmintonShop:
 
-- Node.js (v16+)
-- PostgreSQL
-- Redis (tùy chọn)
+1. [Hướng Dẫn Cài Đặt](./INSTALLATION_GUIDE.md) - Cài đặt frontend, backend và database
+2. [Cấu Trúc Dự Án](./PROJECT_STRUCTURE.md) - Mô tả chi tiết cấu trúc thư mục và files
+3. [Luồng Hoạt Động](./PROJECT_FLOW.md) - Giải thích luồng hoạt động của dự án
 
-## Cài đặt
+## 🚀 Bắt Đầu Nhanh
 
-1. Clone repository:
+### Yêu Cầu Hệ Thống
 
-```bash
-git clone <repository-url>
-cd backend
-```
+- **Node.js**: v18.0.0 trở lên
+- **PostgreSQL**: v12.0 trở lên
+- **npm**: v8.0.0 trở lên
 
-2. Cài đặt các dependencies:
+### Cài Đặt Nhanh
 
 ```bash
-npm install
-```
+# Clone repository (nếu chưa có)
+git clone [repository-url]
+cd badmintonshop
 
-3. Tạo file .env từ file .env.example và cấu hình các biến môi trường:
+# Cài đặt dependencies
+cd backend && npm install
+cd ../frontend && npm install
 
-```bash
-cp .env.example .env
-```
+# Cấu hình database
+# Tạo database PostgreSQL với tên "badmintonshop"
 
-4. Tạo database và chạy migrations:
-
-```bash
+# Chạy migrations và seed data
+cd ../backend
 npm run db:migrate
+node scripts/import-hybrid-products.js
+
+# Khởi động servers
+# Terminal 1
+cd backend && npm run dev
+# Terminal 2
+cd frontend && npm run dev
 ```
 
-5. (Tùy chọn) Chạy seeders để tạo dữ liệu mẫu:
+Truy cập:
+
+- Frontend: http://localhost:5173
+- Admin Panel: http://localhost:5173/admin
+- Backend API: http://localhost:8888
+
+## 🔑 Tính Năng Chính
+
+### 🛍️ E-commerce Core
+
+- ✅ Catalog sản phẩm với phân trang và filtering
+- ✅ Chi tiết sản phẩm với variants và gallery
+- ✅ Giỏ hàng và wishlist
+- ✅ Checkout với Stripe
+- ✅ Quản lý đơn hàng
+- ✅ Đánh giá sản phẩm
+
+### 👥 User Management
+
+- ✅ Đăng ký/đăng nhập
+- ✅ Profile người dùng
+- ✅ Lịch sử đơn hàng
+- ✅ Quản lý địa chỉ
+
+### 👨‍💼 Admin Panel
+
+- ✅ Dashboard thống kê
+- ✅ Quản lý sản phẩm
+- ✅ Quản lý đơn hàng
+- ✅ Quản lý người dùng
+- ✅ Báo cáo bán hàng
+
+### 🤖 AI Features
+
+- ✅ Chatbot Gemini AI
+- ✅ Gợi ý sản phẩm
+- ✅ Tìm kiếm thông minh
+
+## 📋 Hướng Dẫn Cài Đặt Chi Tiết
+
+### 1. Cài Đặt PostgreSQL
+
+Xem hướng dẫn chi tiết trong [INSTALLATION_GUIDE.md](./INSTALLATION_GUIDE.md#🗄️-cài-đặt-postgresql-database).
+
+### 2. Seed Data
+
+Xem hướng dẫn chi tiết trong [INSTALLATION_GUIDE.md](./INSTALLATION_GUIDE.md#🌱-seed-data).
+
+### 3. Cấu Hình Gemini AI
+
+Xem hướng dẫn chi tiết trong [INSTALLATION_GUIDE.md](./INSTALLATION_GUIDE.md#🤖-cấu-hình-gemini-ai).
+
+## 🏗️ Cấu Trúc Dự Án
+
+Xem mô tả chi tiết cấu trúc dự án trong [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md).
+
+## 🔄 Luồng Hoạt Động
+
+Xem giải thích chi tiết về luồng hoạt động của dự án trong [PROJECT_FLOW.md](./PROJECT_FLOW.md).
+
+## 🛠️ Tùy Chỉnh
+
+### Thay Đổi Thương Hiệu
+
+1. **Logo & Branding**
+
+   - Thay đổi logo trong `frontend/public/images/`
+   - Cập nhật màu sắc trong `frontend/tailwind.config.js`
+
+2. **Tên Website**
+   - Cập nhật trong `frontend/src/constants/app.js`
+   - Thay đổi meta tags
+
+### Cấu Hình Thanh Toán
+
+```env
+# Trong file backend/.env
+STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_WEBHOOK_SECRET=your_webhook_secret
+```
+
+## 🚀 Triển Khai Production
+
+### Build Production
 
 ```bash
-npm run db:seed
+# Frontend
+cd frontend
+npm run build
+
+# Backend
+cd backend
+npm run start
 ```
 
-## Chạy ứng dụng
+### Deploy Options
 
-### Development mode:
+- **VPS**: Ubuntu, CentOS, Debian
+- **Cloud**: AWS, Google Cloud, Azure
+- **Hosting**: Vercel, Netlify, Heroku
 
-```bash
-npm run dev
-```
+## 🆘 Xử Lý Sự Cố
 
-### Production mode:
+Xem hướng dẫn xử lý sự cố trong [INSTALLATION_GUIDE.md](./INSTALLATION_GUIDE.md#🆘-xử-lý-sự-cố).
 
-```bash
-npm start
-```
+## 📞 Hỗ Trợ
 
-## API Endpoints
+- Email: leeminhkang@gmail.com
+- FaceBook: LE Minh Khang(kang)
 
-### Auth
+---
 
-- `POST /api/auth/register` - Đăng ký tài khoản
-- `POST /api/auth/login` - Đăng nhập
-- `GET /api/auth/verify-email/:token` - Xác thực email
-- `POST /api/auth/refresh-token` - Làm mới token
-- `POST /api/auth/forgot-password` - Quên mật khẩu
-- `POST /api/auth/reset-password` - Đặt lại mật khẩu
-- `GET /api/auth/me` - Lấy thông tin người dùng hiện tại
-
-### Users
-
-- `PUT /api/users/profile` - Cập nhật thông tin cá nhân
-- `POST /api/users/change-password` - Đổi mật khẩu
-- `GET /api/users/addresses` - Lấy danh sách địa chỉ
-- `POST /api/users/addresses` - Thêm địa chỉ mới
-- `PUT /api/users/addresses/:id` - Cập nhật địa chỉ
-- `DELETE /api/users/addresses/:id` - Xóa địa chỉ
-- `PATCH /api/users/addresses/:id/default` - Đặt địa chỉ mặc định
-
-### Categories
-
-- `GET /api/categories` - Lấy tất cả danh mục
-- `GET /api/categories/tree` - Lấy cây danh mục
-- `GET /api/categories/:id` - Lấy danh mục theo ID
-- `GET /api/categories/slug/:slug` - Lấy danh mục theo slug
-- `GET /api/categories/:id/products` - Lấy sản phẩm theo danh mục
-- `POST /api/categories` - Tạo danh mục mới (Admin)
-- `PUT /api/categories/:id` - Cập nhật danh mục (Admin)
-- `DELETE /api/categories/:id` - Xóa danh mục (Admin)
-
-### Products
-
-- `GET /api/products` - Lấy tất cả sản phẩm
-- `GET /api/products/featured` - Lấy sản phẩm nổi bật
-- `GET /api/products/search` - Tìm kiếm sản phẩm
-- `GET /api/products/:id` - Lấy sản phẩm theo ID
-- `GET /api/products/slug/:slug` - Lấy sản phẩm theo slug
-- `GET /api/products/:id/related` - Lấy sản phẩm liên quan
-- `POST /api/products` - Tạo sản phẩm mới (Admin)
-- `PUT /api/products/:id` - Cập nhật sản phẩm (Admin)
-- `DELETE /api/products/:id` - Xóa sản phẩm (Admin)
-
-### Cart
-
-- `GET /api/cart` - Lấy giỏ hàng
-- `POST /api/cart` - Thêm sản phẩm vào giỏ hàng
-- `PUT /api/cart/items/:id` - Cập nhật số lượng sản phẩm
-- `DELETE /api/cart/items/:id` - Xóa sản phẩm khỏi giỏ hàng
-- `DELETE /api/cart` - Xóa tất cả sản phẩm trong giỏ hàng
-
-### Orders
-
-- `POST /api/orders` - Tạo đơn hàng mới
-- `GET /api/orders` - Lấy danh sách đơn hàng của người dùng
-- `GET /api/orders/:id` - Lấy chi tiết đơn hàng theo ID
-- `GET /api/orders/number/:number` - Lấy chi tiết đơn hàng theo số đơn hàng
-- `POST /api/orders/:id/cancel` - Hủy đơn hàng
-- `GET /api/orders/admin/all` - Lấy tất cả đơn hàng (Admin)
-- `PATCH /api/orders/admin/:id/status` - Cập nhật trạng thái đơn hàng (Admin)
-
-### Reviews
-
-- `GET /api/reviews/product/:productId` - Lấy đánh giá của sản phẩm
-- `GET /api/reviews/user` - Lấy đánh giá của người dùng
-- `POST /api/reviews` - Tạo đánh giá mới
-- `PUT /api/reviews/:id` - Cập nhật đánh giá
-- `DELETE /api/reviews/:id` - Xóa đánh giá
-- `GET /api/reviews/admin/all` - Lấy tất cả đánh giá (Admin)
-- `PATCH /api/reviews/admin/:id/verify` - Xác minh đánh giá (Admin)
-
-### Wishlist
-
-- `GET /api/wishlist` - Lấy danh sách yêu thích
-- `POST /api/wishlist` - Thêm sản phẩm vào danh sách yêu thích
-- `DELETE /api/wishlist/:productId` - Xóa sản phẩm khỏi danh sách yêu thích
-- `GET /api/wishlist/check/:productId` - Kiểm tra sản phẩm có trong danh sách yêu thích
-- `DELETE /api/wishlist` - Xóa tất cả sản phẩm trong danh sách yêu thích
-
-## Cấu trúc thư mục
-
-```
-src/
-├── config/             # Cấu hình ứng dụng
-├── constants/          # Các hằng số
-├── controllers/        # Xử lý logic nghiệp vụ
-├── database/           # Migrations và seeders
-├── middlewares/        # Middleware
-├── models/             # Mô hình dữ liệu
-├── routes/             # Định nghĩa routes
-├── services/           # Các dịch vụ (email, payment, etc.)
-├── utils/              # Tiện ích
-├── validators/         # Xác thực dữ liệu
-├── app.js              # Express app
-└── server.js           # Entry point
-```
-
-## License
-
-ISC
+_© 2025 BadmintonShop - Giải pháp e-commerce cầu lông toàn diện_
